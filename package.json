@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc:init": "tsc --init"
+    "tsc:init": "tsc --init",
+    "tsnode": "ts-node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@type-challenges/utils": "^0.1.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }
